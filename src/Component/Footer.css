@@ -1,4 +1,3 @@
-
 /* Footer link hover effect */
 .footer .short-link a,
 .footer .help-link a,
@@ -27,20 +26,20 @@
 
 /* Social Media Icon Size */
 .footer .hightech-link a i {
-    font-size: 1.5rem;
-  }
-  
-  /* Social media icons hover effect */
-  .footer .hightech-link a:hover {
-    background-color: var(--bs-secondary); /* Change background on hover */
-    transform: scale(1.1); /* Zoom in slightly on hover */
-  }
-  
-  /* Social media links spacing */
-  .footer .hightech-link a {
-    margin-bottom: 10px;
-  }
-  
+  font-size: 1.5rem;
+}
+
+/* Social media icons hover effect */
+.footer .hightech-link a:hover {
+  background-color: var(--bs-secondary); /* Change background on hover */
+  transform: scale(1.1); /* Zoom in slightly on hover */
+}
+
+/* Social media links spacing */
+.footer .hightech-link a {
+  margin-bottom: 10px;
+}
+
 .footer .hightech-link a:hover i {
   color: white; /* Change icon color on hover */
 }

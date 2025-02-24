@@ -25,7 +25,7 @@ function CloudService() {
             <p  style={{textAlign: "justify"}} >Leverage our cloud services, designed for disaster recovery, data transfer, and backup, to harness the power of AWS, Azure, and other leading platforms. As a trusted cloud solution provider, we deliver tailored solutions to meet your business's critical needs with reliability and efficiency.</p>
         </div>
         <div className="container mt-5 " style={{ maxHeight: "1000px", overflowY: "auto"}} >
-      <div className="row row-cols-1 row-cols-md-4 g-4 ">
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 ">
         {cards.map((card, index) => (
           <div className="col" key={index}>
             <div className="card " style={{ width: "18rem",backgroundColor:"#0f055f" }}>

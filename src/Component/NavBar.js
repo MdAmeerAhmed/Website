@@ -1,10 +1,11 @@
 import React from "react";
 import "./Navbar.css";
 import "animate.css"; // Import Animate.css
+
 const Navbar = () => {
   return (
     <div className="container-fluid sticky-top bg-primary">
-      <div className="container ">
+      <div className="container">
         <nav className="navbar navbar-dark navbar-expand-lg py-0">
           <a href="index.html" className="navbar-brand">
             <h1 className="text-white fw-bold d-block">
@@ -30,11 +31,11 @@ const Navbar = () => {
                   <div>
                     <div><h2 className="fw-normal">Get to know our team and mission</h2></div>
                     <hr/>
-                    <div className="d-flex">
-                      <div style={{width:"30%"}}>
+                    <div className="d-flex flex-column flex-md-row">
+                      <div className="me-md-4 mb-3 mb-md-0" style={{width:"30%"}}>
                         <img src="./img/img1.jpg" className="img-fluid w-100 p-2 rounded" alt="Team" />
                       </div>
-                      <div className="mx-5">
+                      <div className="mx-md-5">
                         <li><a className="dropdown-item" href="/about-us">About Us</a></li>
                         <li><a className="dropdown-item" href="/about-us/our-team">Our Team</a></li>
                         <li><a className="dropdown-item" href="/about-us/our-partners">Our Partners</a></li>
@@ -53,11 +54,11 @@ const Navbar = () => {
                   <div>
                     <div><h2 className="fw-normal">Expert IT solutions for your business</h2></div>
                     <hr/>
-                    <div className="d-flex">
-                      <div style={{width:"30%"}}>
+                    <div className="d-flex flex-column flex-md-row">
+                      <div className="me-md-4 mb-3 mb-md-0" style={{width:"30%"}}>
                         <img src="./img/img2.jpg" className="img-fluid w-100 p-2 rounded" alt="IT Service" />
                       </div>
-                      <div className="me-5">
+                      <div className="me-md-5">
                         <li><a className="dropdown-item" href="/it-service">IT Service</a></li>
                         <li><a className="dropdown-item" href="/it-service/our-team">Our Team</a></li>
                         <li><a className="dropdown-item" href="/it-service/our-partners">Our Partners</a></li>
@@ -76,11 +77,11 @@ const Navbar = () => {
                   <div>
                     <div><h2 className="fw-normal">Discover our range of tech solutions</h2></div>
                     <hr/>
-                    <div className="d-flex">
-                      <div style={{width:"30%"}}>
+                    <div className="d-flex flex-column flex-md-row">
+                      <div className="me-md-4 mb-3 mb-md-0" style={{width:"30%"}}>
                         <img src="./img/img1.jpg" className="img-fluid w-100 p-2 rounded" alt="Product" />
                       </div>
-                      <div className="me-5">
+                      <div className="me-md-5">
                         <li><a className="dropdown-item" href="/product">Product</a></li>
                         <li><a className="dropdown-item" href="/product/our-team">Our Team</a></li>
                         <li><a className="dropdown-item" href="/product/our-partners">Our Partners</a></li>
@@ -99,15 +100,15 @@ const Navbar = () => {
                   <div>
                     <div><h2 className="fw-normal">Expert Digital Market solutions for your business</h2></div>
                     <hr/>
-                    <div className="d-flex">
-                      <div style={{width:"30%"}}>
-                        <img src="./img/digital/img3.webp" className="img-fluid w-100 p-2 rounded" alt="IT Service" />
+                    <div className="d-flex flex-column flex-md-row">
+                      <div className="me-md-4 mb-3 mb-md-0" style={{width:"30%"}}>
+                        <img src="./img/digital/img3.webp" className="img-fluid w-100 p-2 rounded" alt="Digital Service" />
                       </div>
-                      <div className="me-5">
+                      <div className="me-md-5">
                         <li><a className="dropdown-item" href="/it-service">Search Engine Optimization</a></li>
                         <li><a className="dropdown-item" href="/it-service/our-team">Social Media Marketing</a></li>
                         <li><a className="dropdown-item" href="/it-service/our-partners">Content Marketing</a></li>
-                        <li><a className="dropdown-item" href="/it-service/clients-and-testimonials">Influncer Marketing</a></li>
+                        <li><a className="dropdown-item" href="/it-service/clients-and-testimonials">Influencer Marketing</a></li>
                         <li><a className="dropdown-item" href="/it-service/faq">Email Marketing</a></li>
                       </div>
                     </div>
@@ -118,15 +119,15 @@ const Navbar = () => {
                 <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                   Security
                 </a>
-                <ul className="dropdown-menu fixed-dropdown mx-5 ">
+                <ul className="dropdown-menu fixed-dropdown">
                   <div>
                     <div><h2 className="fw-normal">Get to know our security measures</h2></div>
                     <hr/>
-                    <div className="d-flex">
-                      <div style={{width:"30%"}}>
+                    <div className="d-flex flex-column flex-md-row">
+                      <div className="me-md-4 mb-3 mb-md-0" style={{width:"30%"}}>
                         <img src="./img/img3.jpg" className="img-fluid w-100 p-2 rounded" alt="Security" />
                       </div>
-                      <div className="me-5">
+                      <div className="me-md-5">
                         <li><a className="dropdown-item" href="/security">Security</a></li>
                         <li><a className="dropdown-item" href="/security/our-team">Our Team</a></li>
                         <li><a className="dropdown-item" href="/security/our-partners">Our Partners</a></li>
