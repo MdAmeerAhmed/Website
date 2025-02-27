@@ -12,7 +12,7 @@ import SecurityCard from "./pages/SecurityPage/SecurityCard";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Projects">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
