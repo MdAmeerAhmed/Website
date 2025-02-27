@@ -38,10 +38,10 @@ const CarouselComponent = () => {
                                 </div></div>
                         </div>
                         <button className='carousel-control-prev' type='button' data-bs-target='#carouselExample1' data-bs-slide='prev'>
-                            <span className='carousel-control-prev-icon'></span>
+                            <span className='carousel-control-prev-icon' style={{filter: "invert(50%) sepia(1%) saturate(10%) hue-rotate(175deg) brightness(90%) contrast(90%)"}}></span>
                         </button>
                         <button className='carousel-control-next' type='button' data-bs-target='#carouselExample1' data-bs-slide='next'>
-                            <span className='carousel-control-next-icon'></span>
+                            <span className='carousel-control-next-icon'style={{filter: "invert(50%) sepia(1%) saturate(10%) hue-rotate(175deg) brightness(90%) contrast(90%)"}}></span>
                         </button>
                     </div>
                 </div>
@@ -71,10 +71,10 @@ const CarouselComponent = () => {
                                 </div></div>
                         </div>
                         <button className='carousel-control-prev' type='button' data-bs-target='#carouselExample2' data-bs-slide='prev'>
-                            <span className='carousel-control-prev-icon'></span>
+                            <span className='carousel-control-prev-icon'style={{filter: "invert(50%) sepia(1%) saturate(10%) hue-rotate(175deg) brightness(90%) contrast(90%)"}}></span>
                         </button>
                         <button className='carousel-control-next' type='button' data-bs-target='#carouselExample2' data-bs-slide='next'>
-                            <span className='carousel-control-next-icon'></span>
+                            <span className='carousel-control-next-icon'style={{filter: "invert(50%) sepia(1%) saturate(10%) hue-rotate(175deg) brightness(90%) contrast(90%)"}}></span>
                         </button>
                     </div>
                 </div>

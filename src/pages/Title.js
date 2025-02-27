@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';   
 
-function Title({ title, page }) {
+function Title({ title, page, link }) {
   return (
     <div
       style={{
@@ -38,7 +38,7 @@ function Title({ title, page }) {
                 <meta itemProp="position" content="2" />
               </li>
               <li className="breadcrumb-item active">
-                <NavLink to="/about" className="text-decoration-none text-dark">
+                <NavLink to={link} className="text-decoration-none text-dark">
                   <span>{page}</span>
                 </NavLink>
                 <meta itemProp="position" content="3" />

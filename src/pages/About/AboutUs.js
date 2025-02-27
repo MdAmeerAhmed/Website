@@ -6,7 +6,7 @@ import Partner from "../Partner";
 function AboutUs() {
   return (
     <>
-      <Title title="About Us" page="About Us" />
+      <Title title="About Us" page="About Us" link="/about-us" />
       <div className="container-fluid bg-info py-4">
         <div className="row align-items-center mb-4">
           <div className="col-md-5 ">

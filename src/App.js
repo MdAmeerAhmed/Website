@@ -1,19 +1,18 @@
-import { BrowserRouter as Router,Routes, Route} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import Home from "./Component/Home";
-import AboutUs from "../src/pages/About/AboutUs";
-import DigitalMarketing from "../src/pages/DigitalMarket/DigitalMarketing";
-import Security from "../src/pages/Security/Security";
-import ITServices from "../src/pages/Services/ITServices";
+import AboutUs from "./pages/About/AboutUs";
+import DigitalMarketing from "./pages/DigitalMarket/DigitalMarketing";
+import ITServices from "./pages/Services/ITServices";
 import Error from "./Component/Error";
-import Contact from "../src/pages/ContactUs/Contact";
+import Contact from "./pages/ContactUs/Contact";
 import Layout from "./Component/Layout";
 import OurPartner from "./pages/About/OurPartner";
+import SecurityCard from "./pages/SecurityPage/SecurityCard";
 
 function App() {
   return (
-    <>  
-        <Router> 
+    <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -28,13 +27,12 @@ function App() {
           <Route path="it-service/clients-and-testimonials" element={<h1>IT Service Clients and Testimonials Page</h1>} />
           <Route path="it-service/faq" element={<h1>IT Service FAQ Page</h1>} />
           <Route path="digital-marketing" element={<DigitalMarketing />} />
-          <Route path="security" element={<Security />} />
+          <Route path="security" element={<SecurityCard />} />
           <Route path="contact" element={<Contact />} />
         </Route>
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>
-    </>
   );
 }
 
