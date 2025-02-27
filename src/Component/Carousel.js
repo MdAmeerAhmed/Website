@@ -29,19 +29,19 @@ const Carousel = () => {
       </ul>
 
       {/* Carousel Inner */}
-      <div className="carousel-inner align-items-center justify-content-center mb-5">
+      <div className="carousel-inner align-items-center justify-content-center ">
         {/* First Slide */}
         <div className="carousel-item active">
-          <div className="carousel-caption d-flex flex-column mb-5 justify-content-center align-items-center">
+          <div className="carousel-caption d-flex flex-column justify-content-center align-items-center " >
             <h1 className="text-light">Innovative IT Solutions to Empower Your Business</h1>
-            <h5 className="text-light">Explore our range of products, including Microsoft Copilot, CCTV Solutions, and more, to enhance your business operations.</h5>
+            <h5 className="text-light ">Explore our range of products, including Microsoft Copilot, CCTV Solutions, and more, to enhance your business operations.</h5>
             <a href="/products" className="btn btn-outline-light   mt-3 mb-5">View Products</a>
           </div>
         </div>
 
         {/* Second Slide */}
         <div className="carousel-item">
-          <div className="carousel-caption d-flex flex-column mb-5 justify-content-center align-items-center">
+          <div className="carousel-caption d-flex flex-column justify-content-center align-items-center">
             <h1 className="text-light">Comprehensive IT Services for Seamless Operations</h1>
             <h5 className="text-light">From structured cabling to managed IT services, we provide expert support to ensure your business runs smoothly.</h5>
             <a href="/products" className="btn btn-outline-light text-light mt-3 mb-5">View Products</a>
@@ -50,7 +50,7 @@ const Carousel = () => {
 
         {/* Third Slide */}
         <div className="carousel-item">
-          <div className="carousel-caption d-flex flex-column mb-5 justify-content-center align-items-center">
+          <div className="carousel-caption d-flex flex-column  justify-content-center align-items-center">
             <h1 className="text-light">Innovative IT Solutions to Empower Your Business</h1>
             <h5 className="text-light">Explore our range of products, including Microsoft Copilot, CCTV Solutions, and more, to enhance your business operations.</h5>
             <a href="/products" className="btn btn-outline-light text-light mt-3 mb-5">View Products</a>
@@ -59,10 +59,10 @@ const Carousel = () => {
 
         {/* Fourth Slide - FIXED */}
         <div className="carousel-item">
-          <div className="carousel-caption d-flex flex-column mb-5 justify-content-center align-items-center">
+          <div className="carousel-caption d-flex flex-column justify-content-center align-items-center">
             <h1 className="text-light">Next-Gen Cloud & Security Solutions</h1>
             <h5 className="text-light">Stay ahead with our latest AI-driven cloud security and digital transformation services.</h5>
-            <a href="/services" className="btn btn-outline-light text-light mt-3 mb-5">Explore Services</a>
+            <a href="/services" className="btn btn-outline-light text-light mt-3 mb-5 w-md-100 w-md-auto"> Explore Services </a>
           </div>
         </div>
       </div>

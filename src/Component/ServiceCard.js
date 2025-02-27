@@ -26,9 +26,7 @@ function ServiceCard() {
     </div>
   </div>
 </div>
-
       </div>
-
       <div className="container-fluid mt-4 px-5">
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 mx-5 ">
           {cards.map((card, index) => (
